@@ -6,6 +6,7 @@
 
 #include "esphome/core/component.h"
 #include "esphome/core/log.h"
+#include "LoRaWan_APP.h"
 
 namespace esphome {
 namespace loragateway {
