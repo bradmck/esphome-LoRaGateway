@@ -7,10 +7,10 @@ from esphome.const import (
   CONF_LAMBDA,
   CONF_WIDTH,
 )
-from . import tdisplays3_ns
+from . import loragateway_ns
 
-TDISPLAYS3 = tdisplays3_ns.class_(
-    "TDisplayS3", cg.PollingComponent, display.DisplayBuffer
+LORAGATEWAY = loragateway_ns.class_(
+    "LoRaGateway", cg.PollingComponent, display.DisplayBuffer
 )
 
 def validate_tdisplays3(config):

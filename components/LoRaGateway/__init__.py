@@ -1,5 +1,5 @@
 import esphome.codegen as cg
 
-dependencies = ["display"]
+#dependencies = ["display"]
 
-tdisplays3_ns = cg.esphome_ns.namespace("tdisplays3")
+loragateway_ns = cg.esphome_ns.namespace("loragateway")
