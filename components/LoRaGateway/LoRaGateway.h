@@ -56,7 +56,7 @@ class LoRaGateway : public PollingComponent
     void setup() override {
 
         //Mcu.begin();
-        ESP_LOGD("LoRa", "Setting Up LoRa Component")
+        ESP_LOGCONFIG("LoRa", "Setting Up LoRa Component")
         txNumber=0;
         rssi=0;
     
